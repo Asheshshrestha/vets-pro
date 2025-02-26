@@ -1,0 +1,48 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+env/
+venv/
+.Python
+db.sqlite3
+
+# FastAPI
+*.log
+*.bak
+*.swp
+
+# MySQL files
+*.sql
+*.db
+mysql_data/
+mysql-data/
+
+# Environment Variables
+.env
+.env.local
+*.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+docker-compose.yml
+.Dockerfile
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.cache/
+
+# Static files (if any, like images, uploads, etc.)
+uploads/
+static/
